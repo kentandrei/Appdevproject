@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Enzo's Hideaway💟</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo-removebg-preview.png">
+</head>
+<body>
+    <div class="circle"></div>
+   <div class="nav">
+        <span></span>
+        <label>Enzo's Hideaway</label>
+        <ul>
+            <li><a href="#box1">HOME</a></li>
+            <li><a href="#box2">SUITES</a></li>
+            <li><a href="#box3">BAR</a></li>
+            <li><a href="#box4">CONTACTS</a></li>
+            <li><a href="#box5">RESERVATION</a></li>
+        </ul>
+   </div>
+   
+    <div class="container" id="box1">
+        <div class="shape1">
+        </div>
+      
+        <div class="reveal">
+            <div class="overviewbox">
+                <div class="pic" id="pic">
+    
+                </div>
+            </div>
+    
+            <span>
+                🔰Cabangan,Zambales
+            </span>
+    
+            <p id="pg">
+                Unwind in Style and let us cater to your every need in our stunning hotel and resort
+            </p>
+            <label id="lb">Enzo Hideaway</label>
+            <a href="#box2">↓</a>
+           
+        </div>
+    </div>
+    <div class="container" id="box2">
+        <div class="shape2">
+        </div>
+        
+       <div class="reveal">
+        <button id="increase" onclick="increase()"> >> </button>
+        <button id="decrease" onclick="decrease()"> << </button>
+       <div class="parent">
+        <div class="parentsuite">
+            <div class="suites hide">
+                <div class="suite" ></div>
+                <div class="suite"></div>
+                <span>Suites</span>
+                <span><u>Standard AC Room</u></span>
+                <span>"Our Standard room offering comfortable accommodation and essential amenities"</span>
+                <span>Price: <br> <i>1000 per nights/Good for 5 persons</i> </span>
+                <span>(RATINGS)<br> ⭐⭐⭐⭐⭐</span>
+                <a href="#box5">Book Now</a>
+            </div>
+            <div class="suites hide">
+                <div class="suite" ></div>
+                <div class="suite"></div>
+                <span>Suites</span>
+                <span><u>Callapao I</u></span>
+                <span>"Wake up to stunning ocean views from ocean view room and relax on your private balcony."</span>
+                <span>Price: <br> <i>2000 per nights/Good for 2 persons</i> </span>
+                <span>(RATINGS)<br> ⭐⭐⭐⭐⭐</span>
+                <a href="#box5">Book Now</a>
+            </div>
+            <div class="suites hide">
+                <div class="suite" ></div>
+                <div class="suite"></div>
+                <span>Suites</span>
+                <span><u>Callapao II</u></span>
+                <span>"Celebrate your special moments in our romantic honeymoon suite"</span>
+                <span>Price: <br> <i>2000 per nights/Good for 2 persons</i> </span>
+                <span>(RATINGS)<br> ⭐⭐⭐⭐</span>
+                <a href="#box5">Book Now</a>
+            </div>
+            <div class="suites hide">
+                <div class="suite" ></div>
+                <div class="suite"></div>
+                <span>Suites</span>
+                <span><u>Family Room</u></span>
+                <span>"Ideal for families,our spacious family room.It features multiple bed and separate sitting area"</span>
+                <span>Price: <br> <i>10,000 per nights/Good for 10 persons</i> </span>
+                <span>(RATINGS)<br> ⭐⭐⭐⭐⭐</span>
+                <a href="#box5">Book Now</a>
+            </div>
+       
+       </div>
+       </div>
+       </div>
+    </div>
+    <div class="container" id="box3">
+        <div class="shape3"></div>
+            <div class="reveal">
+                <div class="parent">
+                    <button onclick="showmenu()">>></button>
+                    <div class="menu">
+                        <div class="menulist hidemenu"></div>
+                        <div class="menulist hidemenu"></div>
+                        <div class="menulist hidemenu"></div>
+                    </div>
+                    <span><u>The Bar</u></span>
+                    <span>“Too much of anything is bad, but too much good whiskey is barely enough.”</span>
+                <div class="parentbar">
+                    <div class="bar" id="bar">
+                    </div>
+                    <div class="bar" id="bar">
+                    </div>
+                    <div class="bar" id="bar">
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+    <div class="container" id="box4">
+       
+       <div class="reveal">
+        <button id="low" onclick="previnfo()" > << </button>
+        <button id="high" onclick="nextinfo()"> >> </button>
+        
+        <div class="contact hidei">
+            <div class="ppic1">
+            </div>
+            <span>Kent Andrei Ibanez </span>
+            <span>CEO & Owner <br></span>
+            <span>“Insomnia sharpens your math skills because you spend all night calculating how much sleep you’ll get if you’re able to ‘fall asleep right now.’”</span>
+            <div class="icon">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </div>
+        <div class="contact hidei">
+            <div class="ppic2">
+            </div>
+            <span style="left:14vw">Nathaniel Pagal</span>
+            <span style="left:6vw;">Assistant CEO <br></span>
+            <span>“i learned from a lot of mistakes‚ so i decided to make more mistakes to learn more”</span>
+            <div class="icon">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </div>
+        <div class="contact hidei">
+            <div class="ppic3">
+            </div>
+            <span style="left:15vw">Jonelle Unlayao</span>
+            <span style="left:7vw">Software Engineer <br></span>
+            <span style="left:10vw">"I'm not lazy, I'm on energy-saving mode."</span>
+            <div class="icon">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </div>
+        <div class="contact hidei">
+            <div class="ppic4">
+            </div>
+            <span>Michael Barderas </span>
+            <span style="left:5vw">Web Designer<br></span>
+            <span>“I'm sick of following my dreams, man. I'm just going to ask where they're going and hook up with ’em later."</span>
+            <div class="icon">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </div>
+       
+       </div>
+    </div>
+    <div class="container" id="box5">
+        <div class="shape4"></div>
+       <div class="reveal">
+        <h3>RESERVATION</h3>
+        <div class="reserveform">
+            <span>NAME OF BOOKER:</span>
+            <input type="text" id="name">
+            <span>LASTNAME, FIRSTNAME MI</span>
+            <span>DATE OF ARRIVAL:</span>
+            <input  type="date" id="arrival">
+            <span>DATE OF DEPARTURE:</span>
+            <input type="date" id="departure">
+            <button id="select" class="select" onclick="showlist()">Select Room</button>
+            <button id="exit" onclick="hidelist()">X</button>
+            <div class="dropdown hidelist">
+                <button id="room1">Standard AC Room</button>
+                <button id="room2">Callapao 1</button>
+                <button id="room3">Callapao 2</button>
+                <button id="room4">Family Room</button>
+            </div>
+            <button id="book" onclick="book()">Book</button>
+        </div>
+        <div class="reservepic1" id="reservepic1">
+        </div>
+        <div class="reservepic2" id="reservepic2">
+        </div>
+        <div class="booking">
+            <span>Thank you for booking with us!</span>
+            <button onclick="closebook()">ok</button>
+        </div>
+       </div>
+       </div>
+       <div class="bookform">
+            <label class="fname">Fullname:</label>
+            <label class="depart">Departure:</label>
+            <label for="" class="arrive">Arrival:</label>
+            <label for="" class="room">Room:</label>
+            <button onclick="cancel()" class="cancel">cancel</button>
+            <button onclick="confirm()" class="confirm">confirm</button>
+            <label  class="logos"></label>
+       </div>
+    </div>
+    <footer>
+        <label >Enzo Hideaway</label>
+        <div class="content">
+            <span>Enzo</span>
+            <span>Overview</span>
+            <span>Suites</span>
+            <span>Bar</span>
+            <span>Contact</span>
+            <span>Reservation</span>
+        </div>
+        <div class="socials">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="logo">
+        </div>
+        <p> &copy;Copyright ©2023 All rights reserved | This website is made with  by <U>SEMICOLON</U> </p>
+        <div class="sponsor1">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
